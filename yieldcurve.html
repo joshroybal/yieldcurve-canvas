@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="us-ascii">
+      <title>U. S. Treasury Yields</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link id="stylesheet" media="all">
+      <script type="text/javascript" src="/yield_search.js" defer></script>
+   </head>
+   <body>
+      <header><p>U. S. Treasury Yields</p></header>
+      <div><a href='/index.php'>Home</a></div>
+      <br>
+      <form action = "cgi-bin/yieldcurve.cgi" method = "POST" accept-charset="utf-8">
+         date : 
+         <input type="text" name="date" value="1990-01-02" size="12">
+         <input type="submit" value="search">
+      </form>
+      <br>
+      <div><a href='/index.php'>Home</a></div>
+      <footer><p>Copyright &#xa9; Josh Roybal 2019, all rights reserved.</p></footer>
+   </body>
+</html>
